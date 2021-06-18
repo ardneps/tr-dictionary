@@ -1,12 +1,6 @@
 
 ## Modulün Amacı
 
-  
-
-> **tr-dictionary**: Tercih ettiğiniz herhangi kelimenin TDK sözlüğündeki anlamına, cümle içi kullanımlarına, dil bakımından kökenine ve daha fazlasına kolayca ulaşmanızı sağlayacak bir NPM modülü!
-
-  
-
 > Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan kolayca ve efor sarfetmeden Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
 
   
