@@ -1,25 +1,14 @@
-
 # Modülün Amacı
 
 > Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan basit bir şekilde Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
 
-  
-
 Bu modülü ile ulaşabileceğiniz temel sözlük bilgilerinden birkaçı:
-
-  
 
 - Sözcüğün temel ve yan anlamı,
 
-  
-
 - Sözcüğün dil bakımından kökeni,
 
-  
-
 - İçinde sözcüğü barındıran atasözü örnekleri, normal cümle örnekleri ve daha fazlası..
-
-  
 
 # Kurulum
 
@@ -31,10 +20,7 @@ Bu modülü ile ulaşabileceğiniz temel sözlük bilgilerinden birkaçı:
   
 # Modülün Kullanımı
 
-> Modülün kullanımı açıklamasında da bahsedildiği üzere oldukça basit,
-fakat modülün çalışma yapısı asenkron türde olduğu için modülü kullanırken "async-await" veya ".then()" yapılarını kullanmanız gerekiyor.
-
-  
+> Modülün kullanımı açıklamasında da bahsedildiği üzere oldukça basit, fakat modülün çalışma yapısı asenkron türde olduğu için modülü kullanırken "async-await" veya ".then()" yapılarını kullanmanız gerekiyor.
 
 Bu yapılara ait örnekler kullanımlar aşağıda bulunuyor.
 
@@ -45,14 +31,14 @@ const  tdk  =  require("tr-dictionary");
 
 
 tdk("araba").then(veri => {
-  
+
 // kodunuz
 
 console.log(veri);
 
 });
 ```
-  
+
 **Sonuç:**
 
 ```js
@@ -73,7 +59,8 @@ atasozu: 'araba devrilince yol gösteren çok olur'
 
 ```js
 const  tdk  =  require("tr-dictionary");
-  
+
+
 async  function  myDictionary() {
 
 const  veri  =  await  tdk("çay");
