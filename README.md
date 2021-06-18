@@ -2,7 +2,7 @@
 
 > Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan basit bir şekilde Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
 
-Bu modülü ile ulaşabileceğiniz temel sözlük bilgilerinden birkaçı:
+Bu modül ile ulaşabileceğiniz temel sözlük bilgilerinden birkaçı:
 
 - Sözcüğün temel ve yan anlamı,
 
