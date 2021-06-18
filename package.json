@@ -1,0 +1,26 @@
+{
+  "name": "tr-dictionary",
+  "version": "1.0.0",
+  "description": "Tercih ettiğiniz herhangi kelimenin TDK sözlüğündeki anlamına, cümle içi kullanımlarına, dil bakımından kökenine ve daha fazlasına kolayca ulaşmanızı sağlayacak bir NPM modülü!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkayfazlioglu/tr-dictionary.git"
+  },
+  "keywords": [
+    "tr-dictionary",
+    "tr-sozluk",
+    "tdk",
+    "tdk-api",
+    "sozluk",
+    "sozluk-api"
+  ],
+  "author": "berkayfazlioglu",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

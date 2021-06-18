@@ -1,0 +1,3 @@
+# Bu dosyanın amacı, GitHub'a dosya aktarılırken gönderilmemesi gereken dosyaları belirlemektir.
+node_modules
+# "node_modules" klasörü sözlük verilerine erişim sağlanırken kullanılan modüllerin bulunduğu klasördür.
