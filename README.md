@@ -27,7 +27,7 @@ Bu yapılara ait örnekler kullanımlar aşağıda bulunuyor.
 ## **".then()" yapısı ile kullanım:**
 
 ```js
-const  tdk  =  require("tr-dictionary");
+const tdk = require("tr-dictionary");
 
 
 tdk("araba").then(veri => {
@@ -58,12 +58,12 @@ atasozu: 'araba devrilince yol gösteren çok olur'
 ## **"async-await" yapısı ile kullanım:**
 
 ```js
-const  tdk  =  require("tr-dictionary");
+const tdk = require("tr-dictionary");
 
 
-async  function  myDictionary() {
+async function myDictionary() {
 
-const  veri  =  await  tdk("çay");
+const veri = await tdk("çay");
 
 // kodunuz
   
