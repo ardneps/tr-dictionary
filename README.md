@@ -7,7 +7,7 @@
 
   
 
-> Bu modül, insanların herhangi bir sözlük API'sine veya API KEY'e ihtiyaç duymadan kolayca ve efor sarfetmeden Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
+> Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan kolayca ve efor sarfetmeden Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
 
   
 
