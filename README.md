@@ -1,5 +1,5 @@
 
-## Modülün Amacı
+# Modülün Amacı
 
 > Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan basit bir şekilde Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
 
