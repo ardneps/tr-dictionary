@@ -15,10 +15,10 @@ Bu yapılara ait örnekler kullanımlar aşağıda bulunuyor.
 ## **".then()" yapısı ile kullanım:**
 
 ```js
-const tdk = require("tr-dictionary");
+const currency = require("tr-doviz");
 
 
-tdk("araba").then(veri => {
+currency().then(veri => {
 
 // kodunuz
 
@@ -31,27 +31,29 @@ console.log(veri);
 
 ```js
 {
-anlam: 'Tekerlekli, motorlu veya motorsuz her türlü kara taşıtı',
-ikinci_anlam: 'Bu taşıtın aldığı miktarda olan',
-ucuncu_anlam: 'Bu kelimenin üçüncü bir anlamı bulunmuyor.',
-fiil_mi: false,
-ozel_mi: false,
-cogul_mu: false,
-koken: 'Türkçe',
-ornek: 'Sarhoşların araba sürmeleri sakıncalıdır.',
-atasozu: 'araba devrilince yol gösteren çok olur'
+  tarih: '18.06.2021',     
+  baz: 'TL',
+  miktar: 1,
+  dolar: 8.695652173913043,
+  euro: 10.345541071798056,
+  frank: 9.456264775413711,
+  kron: 1.011030341020534,
+  ruble: 0.12027326084864814,
+  sterlin: 12.0598166907863,
+  yen: 0.0789041787653074,
+  yuan: 1.3503112467423741
 }
 ```
 
 ## **"async-await" yapısı ile kullanım:**
 
 ```js
-const tdk = require("tr-dictionary");
+const currency = require("tr-doviz");
 
 
-async function myDictionary() {
+async function myWallet() {
 
-const veri = await tdk("çay");
+const veri = await currency();
 
 // kodunuz
   
@@ -59,24 +61,30 @@ console.log(veri);
   
 };
 
-myDictionary();
+myWallet();
 ```
 
 **Sonuç:**
 
 ```js
 {
-anlam: 'Çaygillerden, nemli iklimlerde yetişen bir ağaççık (Thea chinensis)',
-ikinci_anlam: 'Bu ağaççığın özel işlemlerle kurutulan yaprağı',
-ucuncu_anlam: 'Bu yaprağın demlenmesiyle elde edilen güzel kokulu ve sarımtırak kırmızı renkli içecek',
-fiil_mi: false,
-ozel_mi: false,
-cogul_mu: false,
-koken: 'Çince',
-ornek: 'Bu kelimenin kullanıldığı bir cümle örneği bulunmuyor.',
-atasozu: 'çay dökmek'
+  tarih: '18.06.2021',     
+  baz: 'TL',
+  miktar: 1,
+  dolar: 8.695652173913043,
+  euro: 10.345541071798056,
+  frank: 9.456264775413711,
+  kron: 1.011030341020534,
+  ruble: 0.12027326084864814,
+  sterlin: 12.0598166907863,
+  yen: 0.0789041787653074,
+  yuan: 1.3503112467423741
 }
 ```
+
+## Lisans
+
+[MIT](https://github.com/berkayfazlioglu/tr-doviz/blob/master/LICENSE)
 
 ## İletişim
 
