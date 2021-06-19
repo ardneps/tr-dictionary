@@ -1,15 +1,3 @@
-# Modülün Amacı
-
-> Bu modül, insanların herhangi bir sözlük API gereksinimi duymadan basit bir şekilde Resmi Türk Dil Kurumu sözlüğünden aratmak istedikleri sözcüklerle alakalı temel sözlük bilgisine ulaşmalarını sağlamak için yapılmıştır.
-
-Bu modül ile ulaşabileceğiniz temel sözlük bilgilerinden birkaçı:
-
-- Sözcüğün temel ve yan anlamı,
-
-- Sözcüğün dil bakımından kökeni,
-
-- İçinde sözcüğü barındıran atasözü örnekleri, normal cümle örnekleri ve daha fazlası..
-
 # Kurulum
 
 - npm install tr-dictionary
