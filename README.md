@@ -15,14 +15,14 @@ Bu yapılara ait örnekler kullanımlar aşağıda bulunuyor.
 ## **".then()" yapısı ile kullanım:**
 
 ```js
-const currency = require("tr-doviz");
+const tdk = require("./index");
 
 
-currency().then(veri => {
+tdk("araba").then(veri => {
 
-// kodunuz
+    // kodunuz
 
-console.log(veri);
+    console.log(veri)
 
 });
 ```
@@ -31,54 +31,50 @@ console.log(veri);
 
 ```js
 {
-  tarih: '18.06.2021',     
-  baz: 'TL',
-  miktar: 1,
-  dolar: 8.695652173913043,
-  euro: 10.345541071798056,
-  frank: 9.456264775413711,
-  kron: 1.011030341020534,
-  ruble: 0.12027326084864814,
-  sterlin: 12.0598166907863,
-  yen: 0.0789041787653074,
-  yuan: 1.3503112467423741
+  anlam: 'Tekerlekli, motorlu veya motorsuz her türlü kara taşıtı',
+  ikinci_anlam: 'Bu taşıtın aldığı miktarda olan',
+  ucuncu_anlam: 'Bu kelimenin üçüncü bir anlamı bulunmuyor.',      
+  fiil_mi: false,
+  ozel_mi: false,
+  cogul_mu: false,
+  koken: 'Türkçe',
+  ornek: 'Sarhoşların araba sürmeleri sakıncalıdır.',
+  atasozu: 'araba devrilince yol gösteren çok olur'
 }
 ```
 
 ## **"async-await" yapısı ile kullanım:**
 
 ```js
-const currency = require("tr-doviz");
+const tdk = require("./index");
 
 
-async function myWallet() {
+async function MyDictionary() {
 
-const veri = await currency();
+    const veri = await tdk("çay");
 
-// kodunuz
-  
-console.log(veri);
-  
+    // kodunuz
+
+    console.log(veri);
+
 };
 
-myWallet();
+MyDictionary();
 ```
 
 **Sonuç:**
 
 ```js
 {
-  tarih: '18.06.2021',     
-  baz: 'TL',
-  miktar: 1,
-  dolar: 8.695652173913043,
-  euro: 10.345541071798056,
-  frank: 9.456264775413711,
-  kron: 1.011030341020534,
-  ruble: 0.12027326084864814,
-  sterlin: 12.0598166907863,
-  yen: 0.0789041787653074,
-  yuan: 1.3503112467423741
+  anlam: 'Çaygillerden, nemli iklimlerde yetişen bir ağaççık (Thea chinensis)',
+  ikinci_anlam: 'Bu ağaççığın özel işlemlerle kurutulan yaprağı',
+  ucuncu_anlam: 'Bu yaprağın demlenmesiyle elde edilen güzel kokulu ve sarımtırak kırmızı renkli içecek',
+  fiil_mi: false,
+  ozel_mi: false,
+  cogul_mu: false,
+  koken: 'Çince',
+  ornek: 'Bu kelimenin kullanıldığı bir cümle örneği bulunmuyor.',
+  atasozu: 'çay dökmek'
 }
 ```
 
@@ -88,6 +84,6 @@ myWallet();
 
 ## İletişim
 
-[GitHub - berkayfazlioglu](https://github.com/berkayfazlioglu)
+[GitHub](https://github.com/berkayfazlioglu)
 
-[Discord - Ardneps](https://discord.com/users/398138493240475648)
+[Discord](https://discord.com/users/398138493240475648)
