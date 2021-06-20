@@ -49,7 +49,7 @@ tdk("araba").then(veri => {
 const tdk = require("./index");
 
 
-async function MyDictionary() {
+async function myDictionary() {
 
     const veri = await tdk("çay");
 
@@ -59,7 +59,7 @@ async function MyDictionary() {
 
 };
 
-MyDictionary();
+myDictionary();
 ```
 
 **Sonuç:**
