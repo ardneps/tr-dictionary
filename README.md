@@ -15,14 +15,14 @@ Bu yapılara ait örnekler kullanımlar aşağıda bulunuyor.
 ## **".then()" yapısı ile kullanım:**
 
 ```js
-const tdk = require("./index");
+const tdk = require("tr-dictionary");
 
 
 tdk("araba").then(veri => {
 
     // kodunuz
 
-    console.log(veri)
+    console.log(veri);
 
 });
 ```
@@ -46,7 +46,7 @@ tdk("araba").then(veri => {
 ## **"async-await" yapısı ile kullanım:**
 
 ```js
-const tdk = require("./index");
+const tdk = require("tr-dictionary");
 
 
 async function myDictionary() {
