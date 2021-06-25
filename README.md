@@ -1,10 +1,22 @@
+# tr-dictionary
+
+[![package-image]][package-url]  [![install-image]][install-url]
+
+[![NPM][npm-image]][npm-url]
+
+# İçindekiler
+
+- [Kurulum](#kurulum)
+
+- [Modülün Kullanımı](#modülün-kullanımı)
+
+- [Varlıklar](#varlıklar)
+
+- [Lisans](#lisans)
+
 # Kurulum
 
 - npm install tr-dictionary
-
-# Projenin Sahibi
-
-- Projenin Sahibi: Berkay - GitHub: https://github.com/berkayfazlioglu
   
 # Modülün Kullanımı
 
@@ -49,9 +61,9 @@ tdk("araba").then(veri => {
 const tdk = require("tr-dictionary");
 
 
-async function myDictionary() {
+async function myDictionary(query) {
 
-    const veri = await tdk("çay");
+    const veri = await tdk(query);
 
     // kodunuz
 
@@ -59,7 +71,7 @@ async function myDictionary() {
 
 };
 
-myDictionary();
+myDictionary("çay");
 ```
 
 **Sonuç:**
@@ -78,12 +90,29 @@ myDictionary();
 }
 ```
 
-## Lisans
+# Varlıklar
 
-[MIT](https://github.com/berkayfazlioglu/tr-doviz/blob/master/LICENSE)
+| Alan | Tür | Açıklama |
+|:--------|:-------|:-----------|
+| anlam | string | Kelimenin TDK sözlüğündeki ilk anlamı |
+| ikinci_anlam | string | Kelimenin TDK sözlüğündeki ikinci anlamı |
+| ucuncu_anlam | string | Kelimenin TDK sözlüğündeki üçüncü anlamı |
+| fiil_mi | boolean | Kelimenin fiil olup olmadığını belirtir (true/false) | 
+| ozel_mi | boolean | Kelimenin özel isim olup olmadığını belirtir (true/false) | 
+| cogul_mu | boolean | Kelimenin çoğul olup olmadığını belirtir (true/false) | 
+| koken | string | Kelimenin Türkçeye hangi dilden geçtiğini belirtir |
+| ornek | string | Kelimenin içinde bulunduğu bir cümle örneği |
+| atasozu | string | Kelimenin içinde bulunduğu bir atasözü örneği |
 
-## İletişim
+# Lisans
 
-[GitHub](https://github.com/berkayfazlioglu)
+- [MIT](https://github.com/berkayfazlioglu/tr-dictionary/blob/master/LICENSE)
 
-[Discord](https://discord.com/users/398138493240475648)
+[package-url]: http://npmjs.org/package/tr-dictionary
+[package-image]: https://badge.fury.io/js/tr-dictionary.svg
+
+[install-url]: https://packagephobia.com/result?p=tr-dictionary
+[install-image]: https://packagephobia.com/badge?p=tr-dictionary
+
+[npm-url]: https://nodei.co/npm/tr-dictionary/
+[npm-image]: https://nodei.co/npm/tr-dictionary.png?downloads=true&downloadRank=true&stars=false
