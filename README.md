@@ -4,16 +4,6 @@
 
 [![NPM][npm-image]][npm-url]
 
-# İçindekiler
-
-- [Kurulum](#kurulum)
-
-- [Modülün Kullanımı](#modülün-kullanımı)
-
-- [Varlıklar](#varlıklar)
-
-- [Lisans](#lisans)
-
 # Kurulum
 
 - npm install tr-dictionary

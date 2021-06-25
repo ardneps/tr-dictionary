@@ -1,6 +1,6 @@
 {
   "name": "tr-dictionary",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "Tercih ettiğiniz herhangi kelimenin TDK sözlüğündeki anlamına, cümle içi kullanımlarına, dil bakımından kökenine ve daha fazlasına kolayca ulaşmanızı sağlayacak bir NPM modülü!",
   "main": "index.js",
   "scripts": {
