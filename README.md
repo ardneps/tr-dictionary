@@ -1,4 +1,4 @@
-# tr-dictionary
+# 📖 tr-dictionary
 
 [![package-image]][package-url]  [![install-image]][install-url]
 
@@ -8,7 +8,7 @@
 
 - npm install tr-dictionary
   
-# Modülün Kullanımı
+# Kullanım
 
 > Modülün kullanımı açıklamasında da bahsedildiği üzere oldukça basit, fakat modülün çalışma yapısı asenkron türde olduğu için modülü kullanırken "async-await" veya ".then()" yapılarını kullanmanız gerekiyor.
 
@@ -33,6 +33,7 @@ tdk("araba").then(veri => {
 
 ```js
 {
+  kelime: 'araba',
   anlam: 'Tekerlekli, motorlu veya motorsuz her türlü kara taşıtı',
   ikinci_anlam: 'Bu taşıtın aldığı miktarda olan',
   ucuncu_anlam: 'Bu kelimenin üçüncü bir anlamı bulunmuyor.',      
@@ -41,7 +42,7 @@ tdk("araba").then(veri => {
   cogul_mu: false,
   koken: 'Türkçe',
   ornek: 'Sarhoşların araba sürmeleri sakıncalıdır.',
-  atasozu: 'araba devrilince yol gösteren çok olur'
+  atasozu_deyim: 'araba devrilince yol gösteren çok olur'
 }
 ```
 
@@ -68,6 +69,7 @@ myDictionary("çay");
 
 ```js
 {
+  kelime: 'çay',
   anlam: 'Çaygillerden, nemli iklimlerde yetişen bir ağaççık (Thea chinensis)',
   ikinci_anlam: 'Bu ağaççığın özel işlemlerle kurutulan yaprağı',
   ucuncu_anlam: 'Bu yaprağın demlenmesiyle elde edilen güzel kokulu ve sarımtırak kırmızı renkli içecek',
@@ -76,23 +78,9 @@ myDictionary("çay");
   cogul_mu: false,
   koken: 'Çince',
   ornek: 'Bu kelimenin kullanıldığı bir cümle örneği bulunmuyor.',
-  atasozu: 'çay dökmek'
+  atasozu_deyim: 'çay dökmek'
 }
 ```
-
-# Varlıklar
-
-| Alan | Tür | Açıklama |
-|:--------|:-------|:-----------|
-| anlam | string | Kelimenin TDK sözlüğündeki ilk anlamı |
-| ikinci_anlam | string | Kelimenin TDK sözlüğündeki ikinci anlamı |
-| ucuncu_anlam | string | Kelimenin TDK sözlüğündeki üçüncü anlamı |
-| fiil_mi | boolean | Kelimenin fiil olup olmadığını belirtir (true/false) | 
-| ozel_mi | boolean | Kelimenin özel isim olup olmadığını belirtir (true/false) | 
-| cogul_mu | boolean | Kelimenin çoğul olup olmadığını belirtir (true/false) | 
-| koken | string | Kelimenin Türkçeye hangi dilden geçtiğini belirtir |
-| ornek | string | Kelimenin içinde bulunduğu bir cümle örneği |
-| atasozu | string | Kelimenin içinde bulunduğu bir atasözü örneği |
 
 # Lisans
 
