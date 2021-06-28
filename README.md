@@ -84,7 +84,7 @@ myDictionary("çay");
 
 # Lisans
 
-- [MIT](https://github.com/berkayfazlioglu/tr-dictionary/blob/master/LICENSE)
+- [MIT](https://github.com/ardneps/tr-dictionary/blob/master/LICENSE)
 
 [package-url]: http://npmjs.org/package/tr-dictionary
 [package-image]: https://badge.fury.io/js/tr-dictionary.svg
