@@ -1,8 +1,6 @@
-# 📖 tr-dictionary
+# tr-dictionary
 
 [![package-image]][package-url]  [![install-image]][install-url]
-
-[![NPM][npm-image]][npm-url]
 
 # Kurulum
 
